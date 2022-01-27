@@ -192,7 +192,7 @@ class LoadAnnotations:
         Returns:
             dict: The dict contains loaded annotation data.
         """
-        filenames = list(results['ann_info'].keys())
+        filenames = list(results['img_info'].keys())
         skip_len = len('filename_')
 
         for filename in filenames:
